@@ -1,0 +1,39 @@
+name: Build and Create Installer
+
+on:
+  workflow_call:
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Setup NuGet
+        uses: NuGet/setup-nuget@v1
+
+      - name: Restore NuGet packages
+        run: nuget restore ePnpGui.sln
+
+      - name: Setup MSBuild
+        uses: microsoft/setup-msbuild@v1.1
+        with:
+          vs-version: 'latest'
+
+      - name: Build Solution
+        run: msbuild ePnpGui.sln /p:Configuration=Release
+
+      - name: Install Inno Setup
+        run: choco install innosetup --no-progress --yes
+
+      - name: Build Installer with Inno Setup
+        run: |
+          & 'C:\Program Files (x86)\Inno Setup 6\ISCC.exe' 'ePnpGui\ePnpGui Installer.iss'
+
+      - name: Upload Installer Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ePnpGuiInstaller
+          path: ePnpGui/Inno Output/*.exe
