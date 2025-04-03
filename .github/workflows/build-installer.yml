@@ -31,7 +31,7 @@ jobs:
 
       - name: Build Installer with Inno Setup
         run: |
-          & "C:\Program Files (x86)\Inno Setup 6\ISCC.exe" "ePnpGui\ePnpGui Installer.iss"
+          & "C:\Program Files (x86)\Inno Setup 6\ISCC.exe" "ePnpGui Installer.iss"
 
       - name: Upload Installer Artifact
         uses: actions/upload-artifact@v4
