@@ -1,7 +1,7 @@
-﻿using System;
+﻿using Microsoft.WindowsAPICodePack.Dialogs;
+using System;
 using System.ComponentModel;
 using System.Windows.Forms;
-using Microsoft.WindowsAPICodePack.Dialogs;
 
 namespace ePnpGui
 {

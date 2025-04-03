@@ -1,8 +1,7 @@
-﻿using System;
+﻿using Microsoft.Dism;
+using System;
 using System.Collections.Generic;
 using System.IO;
-
-using Microsoft.Dism;
 
 namespace ePnpGui.Utils
 {
@@ -24,6 +23,7 @@ namespace ePnpGui.Utils
         }
 
         #region IDriverStore Members
+
         public List<DriverStoreEntry> EnumeratePackages()
         {
             List<DriverStoreEntry> driverStoreEntries = new List<DriverStoreEntry>();
@@ -113,7 +113,7 @@ namespace ePnpGui.Utils
 
             return true;
         }
-        #endregion
 
+        #endregion IDriverStore Members
     }
 }

@@ -1,9 +1,8 @@
-﻿using System.Collections.Generic;
-using System.IO;
-
+﻿using ePnpGui.Lang;
 using ePnpGui.Utils;
+using System.Collections.Generic;
+using System.IO;
 using System.Windows.Forms;
-using ePnpGui.Lang;
 
 namespace ePnpGui
 {
@@ -32,7 +31,7 @@ namespace ePnpGui
             DialogResult dr = saveFileDialog.ShowDialog();
             if (dr == DialogResult.OK)
             {
-                string csvFileName = saveFileDialog.FileName;   // Path                
+                string csvFileName = saveFileDialog.FileName;   // Path
 
                 using (StreamWriter file = new StreamWriter(csvFileName))
                 {

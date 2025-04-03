@@ -127,20 +127,20 @@ namespace ePnpGui
             this.toolStripSeparator1,
             this.ctxMenuOpenFolder});
             this.contextMenuStrip.Name = "contextMenuStrip";
-            this.contextMenuStrip.Size = new System.Drawing.Size(276, 138);
+            this.contextMenuStrip.Size = new System.Drawing.Size(206, 130);
             this.contextMenuStrip.Opening += new System.ComponentModel.CancelEventHandler(this.ContextMenuStrip_Opening);
             // 
             // ctxMenuSelect
             // 
             this.ctxMenuSelect.Name = "ctxMenuSelect";
-            this.ctxMenuSelect.Size = new System.Drawing.Size(275, 32);
+            this.ctxMenuSelect.Size = new System.Drawing.Size(205, 30);
             this.ctxMenuSelect.Text = "Check";
             this.ctxMenuSelect.Click += new System.EventHandler(this.CtxMenuSelect_Click);
             // 
             // ctxMenuSelectAll
             // 
             this.ctxMenuSelectAll.Name = "ctxMenuSelectAll";
-            this.ctxMenuSelectAll.Size = new System.Drawing.Size(275, 32);
+            this.ctxMenuSelectAll.Size = new System.Drawing.Size(205, 30);
             this.ctxMenuSelectAll.Text = "Check All Drivers";
             this.ctxMenuSelectAll.Click += new System.EventHandler(this.CtxMenuSelectAll_Click);
             // 
@@ -148,20 +148,20 @@ namespace ePnpGui
             // 
             this.ctxMenuSelectOldDrivers.Image = ((System.Drawing.Image)(resources.GetObject("ctxMenuSelectOldDrivers.Image")));
             this.ctxMenuSelectOldDrivers.Name = "ctxMenuSelectOldDrivers";
-            this.ctxMenuSelectOldDrivers.Size = new System.Drawing.Size(275, 32);
+            this.ctxMenuSelectOldDrivers.Size = new System.Drawing.Size(205, 30);
             this.ctxMenuSelectOldDrivers.Text = "Check Old Drivers";
             this.ctxMenuSelectOldDrivers.Click += new System.EventHandler(this.CtxMenuSelectOldDrivers_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(272, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(202, 6);
             // 
             // ctxMenuOpenFolder
             // 
             this.ctxMenuOpenFolder.Image = ((System.Drawing.Image)(resources.GetObject("ctxMenuOpenFolder.Image")));
             this.ctxMenuOpenFolder.Name = "ctxMenuOpenFolder";
-            this.ctxMenuOpenFolder.Size = new System.Drawing.Size(275, 32);
+            this.ctxMenuOpenFolder.Size = new System.Drawing.Size(205, 30);
             this.ctxMenuOpenFolder.Text = global::ePnpGui.Lang.Language.Context_Open_Folder;
             this.ctxMenuOpenFolder.Click += new System.EventHandler(this.CtxMenuOpenFolder_Click);
             // 
@@ -176,17 +176,16 @@ namespace ePnpGui
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.lblStatus,
             this.toolStripProgressBar1});
-            this.statusStrip1.Location = new System.Drawing.Point(3, 832);
+            this.statusStrip1.Location = new System.Drawing.Point(2, 554);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Padding = new System.Windows.Forms.Padding(2, 0, 21, 0);
-            this.statusStrip1.Size = new System.Drawing.Size(1232, 32);
+            this.statusStrip1.Size = new System.Drawing.Size(821, 22);
             this.statusStrip1.TabIndex = 9;
             this.statusStrip1.Text = "statusStrip1";
             // 
             // lblStatus
             // 
             this.lblStatus.Name = "lblStatus";
-            this.lblStatus.Size = new System.Drawing.Size(1209, 25);
+            this.lblStatus.Size = new System.Drawing.Size(806, 17);
             this.lblStatus.Spring = true;
             this.lblStatus.Text = global::ePnpGui.Lang.Language.Status_Label;
             this.lblStatus.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -195,7 +194,7 @@ namespace ePnpGui
             // 
             this.toolStripProgressBar1.MarqueeAnimationSpeed = 50;
             this.toolStripProgressBar1.Name = "toolStripProgressBar1";
-            this.toolStripProgressBar1.Size = new System.Drawing.Size(150, 24);
+            this.toolStripProgressBar1.Size = new System.Drawing.Size(100, 17);
             this.toolStripProgressBar1.Style = System.Windows.Forms.ProgressBarStyle.Marquee;
             this.toolStripProgressBar1.Visible = false;
             // 
@@ -212,16 +211,16 @@ namespace ePnpGui
             // 
             // menuStrip1
             // 
-            this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
             this.driversToolStripMenuItem,
             this.actionsToolStripMenuItem,
             this.helpToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(3, 3);
+            this.menuStrip1.Location = new System.Drawing.Point(2, 2);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1232, 36);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 1, 0, 1);
+            this.menuStrip1.Size = new System.Drawing.Size(821, 24);
             this.menuStrip1.TabIndex = 13;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -235,27 +234,27 @@ namespace ePnpGui
             this.toolStripSeparator4,
             this.exitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(54, 29);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 22);
             this.fileToolStripMenuItem.Text = "&File";
             // 
             // mnRefreshView
             // 
             this.mnRefreshView.Image = ((System.Drawing.Image)(resources.GetObject("mnRefreshView.Image")));
             this.mnRefreshView.Name = "mnRefreshView";
-            this.mnRefreshView.Size = new System.Drawing.Size(260, 34);
+            this.mnRefreshView.Size = new System.Drawing.Size(172, 22);
             this.mnRefreshView.Text = "&Refresh View";
             this.mnRefreshView.Click += new System.EventHandler(this.mnRefreshView_Click);
             // 
             // toolStripSeparator5
             // 
             this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(257, 6);
+            this.toolStripSeparator5.Size = new System.Drawing.Size(169, 6);
             // 
             // exportToolStripMenuItem
             // 
             this.exportToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("exportToolStripMenuItem.Image")));
             this.exportToolStripMenuItem.Name = "exportToolStripMenuItem";
-            this.exportToolStripMenuItem.Size = new System.Drawing.Size(260, 34);
+            this.exportToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
             this.exportToolStripMenuItem.Text = "&Export Driver List...";
             this.exportToolStripMenuItem.Click += new System.EventHandler(this.ExportToolStripMenuItem_Click);
             // 
@@ -263,19 +262,19 @@ namespace ePnpGui
             // 
             this.viewLogsTtoolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("viewLogsTtoolStripMenuItem.Image")));
             this.viewLogsTtoolStripMenuItem.Name = "viewLogsTtoolStripMenuItem";
-            this.viewLogsTtoolStripMenuItem.Size = new System.Drawing.Size(260, 34);
+            this.viewLogsTtoolStripMenuItem.Size = new System.Drawing.Size(172, 22);
             this.viewLogsTtoolStripMenuItem.Text = "View &Logs";
             this.viewLogsTtoolStripMenuItem.Click += new System.EventHandler(this.ViewLogsToolStripMenuItem_Click);
             // 
             // toolStripSeparator4
             // 
             this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(257, 6);
+            this.toolStripSeparator4.Size = new System.Drawing.Size(169, 6);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(260, 34);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
             this.exitToolStripMenuItem.Text = "E&xit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.ExitToolStripMenuItem_Click);
             // 
@@ -290,14 +289,14 @@ namespace ePnpGui
             this.deleteToolStripMenuItem,
             this.deleteForceToolStripMenuItem});
             this.driversToolStripMenuItem.Name = "driversToolStripMenuItem";
-            this.driversToolStripMenuItem.Size = new System.Drawing.Size(83, 29);
+            this.driversToolStripMenuItem.Size = new System.Drawing.Size(55, 22);
             this.driversToolStripMenuItem.Text = "&Drivers";
             // 
             // addDriverToolStripMenuItem
             // 
             this.addDriverToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("addDriverToolStripMenuItem.Image")));
             this.addDriverToolStripMenuItem.Name = "addDriverToolStripMenuItem";
-            this.addDriverToolStripMenuItem.Size = new System.Drawing.Size(297, 34);
+            this.addDriverToolStripMenuItem.Size = new System.Drawing.Size(197, 22);
             this.addDriverToolStripMenuItem.Text = "&Add Driver...";
             this.addDriverToolStripMenuItem.Click += new System.EventHandler(this.addDriverToolStripMenuItem_Click);
             // 
@@ -305,35 +304,35 @@ namespace ePnpGui
             // 
             this.installDriverToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("installDriverToolStripMenuItem.Image")));
             this.installDriverToolStripMenuItem.Name = "installDriverToolStripMenuItem";
-            this.installDriverToolStripMenuItem.Size = new System.Drawing.Size(297, 34);
+            this.installDriverToolStripMenuItem.Size = new System.Drawing.Size(197, 22);
             this.installDriverToolStripMenuItem.Text = "&Install Driver...";
             this.installDriverToolStripMenuItem.Click += new System.EventHandler(this.installDriverToolStripMenuItem_Click);
             // 
             // toolStripSeparator10
             // 
             this.toolStripSeparator10.Name = "toolStripSeparator10";
-            this.toolStripSeparator10.Size = new System.Drawing.Size(294, 6);
+            this.toolStripSeparator10.Size = new System.Drawing.Size(194, 6);
             // 
             // openFolderLocationToolStripMenuItem
             // 
             this.openFolderLocationToolStripMenuItem.Enabled = false;
             this.openFolderLocationToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("openFolderLocationToolStripMenuItem.Image")));
             this.openFolderLocationToolStripMenuItem.Name = "openFolderLocationToolStripMenuItem";
-            this.openFolderLocationToolStripMenuItem.Size = new System.Drawing.Size(297, 34);
+            this.openFolderLocationToolStripMenuItem.Size = new System.Drawing.Size(197, 22);
             this.openFolderLocationToolStripMenuItem.Text = "Open Folder &Location...";
             this.openFolderLocationToolStripMenuItem.Click += new System.EventHandler(this.openFolderLocationToolStripMenuItem_Click);
             // 
             // toolStripSeparator11
             // 
             this.toolStripSeparator11.Name = "toolStripSeparator11";
-            this.toolStripSeparator11.Size = new System.Drawing.Size(294, 6);
+            this.toolStripSeparator11.Size = new System.Drawing.Size(194, 6);
             // 
             // deleteToolStripMenuItem
             // 
             this.deleteToolStripMenuItem.Enabled = false;
             this.deleteToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("deleteToolStripMenuItem.Image")));
             this.deleteToolStripMenuItem.Name = "deleteToolStripMenuItem";
-            this.deleteToolStripMenuItem.Size = new System.Drawing.Size(297, 34);
+            this.deleteToolStripMenuItem.Size = new System.Drawing.Size(197, 22);
             this.deleteToolStripMenuItem.Text = "&Delete Driver(s)";
             this.deleteToolStripMenuItem.Click += new System.EventHandler(this.deleteToolStripMenuItem_Click);
             // 
@@ -342,7 +341,7 @@ namespace ePnpGui
             this.deleteForceToolStripMenuItem.Enabled = false;
             this.deleteForceToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("deleteForceToolStripMenuItem.Image")));
             this.deleteForceToolStripMenuItem.Name = "deleteForceToolStripMenuItem";
-            this.deleteForceToolStripMenuItem.Size = new System.Drawing.Size(297, 34);
+            this.deleteForceToolStripMenuItem.Size = new System.Drawing.Size(197, 22);
             this.deleteForceToolStripMenuItem.Text = "Delete &Force Driver(s)";
             this.deleteForceToolStripMenuItem.Click += new System.EventHandler(this.deleteForceToolStripMenuItem_Click);
             // 
@@ -353,14 +352,14 @@ namespace ePnpGui
             this.selectOldDriversToolStripMenuItem,
             this.deselectAllDriversToolStripMenuItem});
             this.actionsToolStripMenuItem.Name = "actionsToolStripMenuItem";
-            this.actionsToolStripMenuItem.Size = new System.Drawing.Size(107, 29);
+            this.actionsToolStripMenuItem.Size = new System.Drawing.Size(72, 22);
             this.actionsToolStripMenuItem.Text = "Selections";
             // 
             // selectAllDriversToolStripMenuItem
             // 
             this.selectAllDriversToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("selectAllDriversToolStripMenuItem.Image")));
             this.selectAllDriversToolStripMenuItem.Name = "selectAllDriversToolStripMenuItem";
-            this.selectAllDriversToolStripMenuItem.Size = new System.Drawing.Size(265, 34);
+            this.selectAllDriversToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
             this.selectAllDriversToolStripMenuItem.Text = "Check All Drivers";
             this.selectAllDriversToolStripMenuItem.Click += new System.EventHandler(this.selectAllDriversToolStripMenuItem_Click);
             // 
@@ -368,7 +367,7 @@ namespace ePnpGui
             // 
             this.selectOldDriversToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("selectOldDriversToolStripMenuItem.Image")));
             this.selectOldDriversToolStripMenuItem.Name = "selectOldDriversToolStripMenuItem";
-            this.selectOldDriversToolStripMenuItem.Size = new System.Drawing.Size(265, 34);
+            this.selectOldDriversToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
             this.selectOldDriversToolStripMenuItem.Text = "Check Old Drivers";
             this.selectOldDriversToolStripMenuItem.Click += new System.EventHandler(this.selectOldDriversToolStripMenuItem_Click);
             // 
@@ -377,7 +376,7 @@ namespace ePnpGui
             this.deselectAllDriversToolStripMenuItem.Enabled = false;
             this.deselectAllDriversToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("deselectAllDriversToolStripMenuItem.Image")));
             this.deselectAllDriversToolStripMenuItem.Name = "deselectAllDriversToolStripMenuItem";
-            this.deselectAllDriversToolStripMenuItem.Size = new System.Drawing.Size(265, 34);
+            this.deselectAllDriversToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
             this.deselectAllDriversToolStripMenuItem.Text = "Uncheck All Drivers";
             this.deselectAllDriversToolStripMenuItem.Click += new System.EventHandler(this.deselectAllDriversToolStripMenuItem_Click);
             // 
@@ -386,14 +385,14 @@ namespace ePnpGui
             this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.aboutToolStripMenuItem1});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(65, 29);
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 22);
             this.helpToolStripMenuItem.Text = "&Help";
             // 
             // aboutToolStripMenuItem1
             // 
             this.aboutToolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("aboutToolStripMenuItem1.Image")));
             this.aboutToolStripMenuItem1.Name = "aboutToolStripMenuItem1";
-            this.aboutToolStripMenuItem1.Size = new System.Drawing.Size(164, 34);
+            this.aboutToolStripMenuItem1.Size = new System.Drawing.Size(107, 22);
             this.aboutToolStripMenuItem1.Text = "&About";
             this.aboutToolStripMenuItem1.Click += new System.EventHandler(this.AboutToolStripMenuItem_Click);
             // 
@@ -405,12 +404,11 @@ namespace ePnpGui
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel1.Controls.Add(this.lstDriverStoreEntries, 0, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 39);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(2, 26);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1232, 793);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(821, 528);
             this.tableLayoutPanel1.TabIndex = 14;
             // 
             // lstDriverStoreEntries
@@ -445,11 +443,11 @@ namespace ePnpGui
             this.lstDriverStoreEntries.FullRowSelect = true;
             this.lstDriverStoreEntries.GridLines = true;
             this.lstDriverStoreEntries.HideSelection = false;
-            this.lstDriverStoreEntries.Location = new System.Drawing.Point(4, 40);
-            this.lstDriverStoreEntries.Margin = new System.Windows.Forms.Padding(4, 40, 4, 4);
+            this.lstDriverStoreEntries.Location = new System.Drawing.Point(3, 40);
+            this.lstDriverStoreEntries.Margin = new System.Windows.Forms.Padding(3, 40, 3, 3);
             this.lstDriverStoreEntries.Name = "lstDriverStoreEntries";
             this.lstDriverStoreEntries.ShowItemToolTips = true;
-            this.lstDriverStoreEntries.Size = new System.Drawing.Size(1224, 731);
+            this.lstDriverStoreEntries.Size = new System.Drawing.Size(815, 485);
             this.lstDriverStoreEntries.SortGroupItemsByPrimaryColumn = false;
             this.lstDriverStoreEntries.TabIndex = 1;
             this.lstDriverStoreEntries.UseCellFormatEvents = true;
@@ -534,10 +532,10 @@ namespace ePnpGui
             this.btnSelectOld,
             this.btnDeselectAll,
             this.btnAbout});
-            this.toolStrip1.Location = new System.Drawing.Point(3, 39);
+            this.toolStrip1.Location = new System.Drawing.Point(2, 26);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Padding = new System.Windows.Forms.Padding(0, 0, 3, 0);
-            this.toolStrip1.Size = new System.Drawing.Size(1232, 41);
+            this.toolStrip1.Padding = new System.Windows.Forms.Padding(0, 0, 2, 0);
+            this.toolStrip1.Size = new System.Drawing.Size(821, 39);
             this.toolStrip1.TabIndex = 15;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -556,7 +554,7 @@ namespace ePnpGui
             // toolStripSeparator9
             // 
             this.toolStripSeparator9.Name = "toolStripSeparator9";
-            this.toolStripSeparator9.Size = new System.Drawing.Size(6, 41);
+            this.toolStripSeparator9.Size = new System.Drawing.Size(6, 39);
             // 
             // btnExport
             // 
@@ -585,7 +583,7 @@ namespace ePnpGui
             // toolStripSeparator6
             // 
             this.toolStripSeparator6.Name = "toolStripSeparator6";
-            this.toolStripSeparator6.Size = new System.Drawing.Size(6, 41);
+            this.toolStripSeparator6.Size = new System.Drawing.Size(6, 39);
             // 
             // btnAdd
             // 
@@ -614,7 +612,7 @@ namespace ePnpGui
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 41);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 39);
             // 
             // btnFolderLocation
             // 
@@ -632,7 +630,7 @@ namespace ePnpGui
             // toolStripSeparator7
             // 
             this.toolStripSeparator7.Name = "toolStripSeparator7";
-            this.toolStripSeparator7.Size = new System.Drawing.Size(6, 41);
+            this.toolStripSeparator7.Size = new System.Drawing.Size(6, 39);
             // 
             // btnDelete
             // 
@@ -663,7 +661,7 @@ namespace ePnpGui
             // toolStripSeparator8
             // 
             this.toolStripSeparator8.Name = "toolStripSeparator8";
-            this.toolStripSeparator8.Size = new System.Drawing.Size(6, 41);
+            this.toolStripSeparator8.Size = new System.Drawing.Size(6, 39);
             // 
             // btnSelectAll
             // 
@@ -718,18 +716,17 @@ namespace ePnpGui
             // 
             // PnpGuiForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
-            this.ClientSize = new System.Drawing.Size(1238, 867);
+            this.ClientSize = new System.Drawing.Size(825, 578);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4);
-            this.MinimumSize = new System.Drawing.Size(709, 512);
+            this.MinimumSize = new System.Drawing.Size(478, 354);
             this.Name = "PnpGuiForm";
-            this.Padding = new System.Windows.Forms.Padding(3);
+            this.Padding = new System.Windows.Forms.Padding(2);
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PnpUtil (GUI)";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.PnpGuiForm_FormClosing);

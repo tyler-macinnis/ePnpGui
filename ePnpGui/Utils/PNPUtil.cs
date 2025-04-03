@@ -36,6 +36,7 @@ namespace ePnpGui.Utils
         };
 
         #region IDriverStore Members
+
         public List<DriverStoreEntry> EnumeratePackages()
         {
             List<DriverStoreEntry> driverStoreEntries = new List<DriverStoreEntry>();
@@ -259,7 +260,8 @@ namespace ePnpGui.Utils
                 infFullPath,
                 ref dummy);
         }
-        #endregion
+
+        #endregion IDriverStore Members
 
         private static bool PnpUtilHelper(PnpUtilOptions option, string infName, ref string output)
         {
@@ -338,16 +340,16 @@ namespace ePnpGui.Utils
 
                         if (option == PnpUtilOptions.Add || option == PnpUtilOptions.AddInstall)
                         {
-                            /* 
+                            /*
                              This regex should recognize (~) this pattern:
                              * MS PnP blah blah
-                             * 
+                             *
                              * blah blah blah
                              * blah blah (...)
-                             * 
+                             *
                              * blah blah:    *number*
                              * blah blah blah:    *number*
-                             * 
+                             *
                              */
                             Match matchResult = AddResultRegex.Match(output);
 

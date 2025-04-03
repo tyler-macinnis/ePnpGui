@@ -1,4 +1,7 @@
-﻿using System;
+﻿using ePnpGui.Lang;
+using ePnpGui.Properties;
+using ePnpGui.Utils;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -12,10 +15,6 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading;
 using System.Windows.Forms;
-
-using ePnpGui.Lang;
-using ePnpGui.Properties;
-using ePnpGui.Utils;
 
 namespace ePnpGui
 {
@@ -87,7 +86,8 @@ namespace ePnpGui
                             this.btnDeleteForce.Enabled = true;
                             this.deleteForceToolStripMenuItem.Enabled = true;
                         }
-                        else {
+                        else
+                        {
                             this.btnDeleteForce.Enabled = false;
                             this.deleteForceToolStripMenuItem.Enabled = false;
                         }
@@ -455,7 +455,6 @@ namespace ePnpGui
                         break;
                 }
             }
-
         }
 
         private static void ShowAboutBox()
@@ -851,7 +850,7 @@ namespace ePnpGui
         {
             if (this.lstDriverStoreEntries.CheckedObjects.Count == 0 && this.lstDriverStoreEntries.SelectedIndex == -1)
             {
-                // No entry is selected 
+                // No entry is selected
                 this.ShowStatus(Status.Warning, Language.Message_Select_Driver_Entry);
                 return;
             }
@@ -872,7 +871,7 @@ namespace ePnpGui
         {
             if (this.lstDriverStoreEntries.CheckedObjects.Count == 0 && this.lstDriverStoreEntries.SelectedIndex == -1)
             {
-                // No entry is selected 
+                // No entry is selected
                 this.ShowStatus(Status.Warning, Language.Message_Select_Driver_Entry);
                 return;
             }
@@ -930,7 +929,6 @@ namespace ePnpGui
                 */
                 this.lstDriverStoreEntries.UncheckAll();
             }
-
         }
 
         private void btnExport_Click(object sender, EventArgs e)
@@ -960,7 +958,7 @@ namespace ePnpGui
             /*
             if (this.lstDriverStoreEntries.SelectedIndex == -1)
             {
-                // No entry is selected 
+                // No entry is selected
                 this.ShowStatus(Status.Warning, Language.Message_Select_Driver_Entry);
                 return;
             }

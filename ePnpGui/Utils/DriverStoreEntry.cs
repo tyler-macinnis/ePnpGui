@@ -40,7 +40,7 @@ namespace ePnpGui.Utils
         public Version DriverVersion;
 
         /// <summary>
-        /// Signer name. Empty if not WHQLd. 
+        /// Signer name. Empty if not WHQLd.
         /// </summary>
         public string DriverSignerName;
 
@@ -156,7 +156,7 @@ namespace ePnpGui.Utils
             };
         }
 
-        // Returns the human-readable file size for an arbitrary, 64-bit file size 
+        // Returns the human-readable file size for an arbitrary, 64-bit file size
         // The default format is "0.### XB", e.g. "4.2 KB" or "1.434 GB"
         public static string GetBytesReadable(long i)
         {

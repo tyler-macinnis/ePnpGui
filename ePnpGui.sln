@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.572
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{3F0C9A17-D59F-48DC-B571-C6F49191AE87}") = "ePnpGui", "ePnpGui\ePnpGui.csproj", "{4B0E4C94-DD99-421D-8227-E56B19D9648B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ePnpGui", "ePnpGui\ePnpGui.csproj", "{4B0E4C94-DD99-421D-8227-E56B19D9648B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

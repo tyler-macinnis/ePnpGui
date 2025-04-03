@@ -1,9 +1,7 @@
-﻿using System;
+﻿using ePnpGui.Lang;
 using System.Diagnostics;
 using System.Reflection;
 using System.Windows.Forms;
-
-using ePnpGui.Lang;
 
 namespace ePnpGui
 {
@@ -93,7 +91,8 @@ namespace ePnpGui
                 return ((AssemblyCompanyAttribute)attributes[0]).Company;
             }
         }
-        #endregion
+
+        #endregion Assembly Attribute Accessors
 
         private void labelLink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
