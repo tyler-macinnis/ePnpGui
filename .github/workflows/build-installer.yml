@@ -1,7 +1,8 @@
 name: Build and Create Installer
 
 on:
-  workflow_call:
+  workflow_call:  # Allows other workflows to call it
+  workflow_dispatch:  # Enables manual trigger via GitHub Actions UI
 
 jobs:
   build:
@@ -30,7 +31,7 @@ jobs:
 
       - name: Build Installer with Inno Setup
         run: |
-          & 'C:\Program Files (x86)\Inno Setup 6\ISCC.exe' 'ePnpGui\ePnpGui Installer.iss'
+          & "C:\Program Files (x86)\Inno Setup 6\ISCC.exe" ePnpGui\installer.iss
 
       - name: Upload Installer Artifact
         uses: actions/upload-artifact@v4
